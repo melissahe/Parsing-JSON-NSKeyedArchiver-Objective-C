@@ -8,28 +8,136 @@
 
 /* Begin PBXBuildFile section */
 		811EE19C20B34BA000E6373B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE19B20B34BA000E6373B /* AppDelegate.m */; };
-		811EE19F20B34BA000E6373B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE19E20B34BA000E6373B /* ViewController.m */; };
+		811EE19F20B34BA000E6373B /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE19E20B34BA000E6373B /* EventsViewController.m */; };
 		811EE1A220B34BA000E6373B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811EE1A020B34BA000E6373B /* Main.storyboard */; };
 		811EE1A420B34BA400E6373B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811EE1A320B34BA400E6373B /* Assets.xcassets */; };
 		811EE1A720B34BA400E6373B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811EE1A520B34BA400E6373B /* LaunchScreen.storyboard */; };
 		811EE1AA20B34BA400E6373B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE1A920B34BA400E6373B /* main.m */; };
+		811EE1B120B34BC500E6373B /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 811EE1B020B34BC500E6373B /* sample.json */; };
+		811EE1B420B34CE800E6373B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE1B320B34CE800E6373B /* Person.m */; };
+		811EE1BC20B34FE700E6373B /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EE1BB20B34FE700E6373B /* PersonTests.m */; };
+		8198D2E120B4996500749A37 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198D2E020B4996500749A37 /* Event.m */; };
+		8198D2E320B49AD400749A37 /* Event.json in Resources */ = {isa = PBXBuildFile; fileRef = 8198D2E220B49AD400749A37 /* Event.json */; };
+		8198D2EB20B4A22B00749A37 /* EventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198D2EA20B4A22B00749A37 /* EventTests.m */; };
+		8198D2FC20B5EFAF00749A37 /* MeetupAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198D2FB20B5EFAF00749A37 /* MeetupAPITests.m */; };
+		8198D30520B5EFD800749A37 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198D30420B5EFD800749A37 /* NetworkHelper.m */; };
+		81E7EF8D20B708F00012174E /* MeetupAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EF8C20B708F00012174E /* MeetupAPI.m */; };
+		81E7EF9320B715010012174E /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EF9220B715010012174E /* EventCell.m */; };
+		81E7EF9720B726910012174E /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EF9620B726910012174E /* ImageCache.m */; };
+		81E7EF9A20B87C300012174E /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EF9920B87C300012174E /* EventDetailViewController.m */; };
+		81E7EF9E20B88F8D0012174E /* FavoriteEventsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EF9D20B88F8D0012174E /* FavoriteEventsAPI.m */; };
+		81E7EFB420B897D40012174E /* PersistenceDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EFB320B897D40012174E /* PersistenceDataTests.m */; };
+		81E7EFBD20B8BFE60012174E /* FavoriteEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7EFBC20B8BFE60012174E /* FavoriteEventsViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811EE1BE20B34FE700E6373B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811EE18F20B34B9F00E6373B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811EE19620B34B9F00E6373B;
+			remoteInfo = "Parsing JSON in Objective-C";
+		};
+		8198D2ED20B4A22B00749A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811EE18F20B34B9F00E6373B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811EE19620B34B9F00E6373B;
+			remoteInfo = "Parsing JSON in Objective-C";
+		};
+		8198D2FE20B5EFAF00749A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811EE18F20B34B9F00E6373B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811EE19620B34B9F00E6373B;
+			remoteInfo = "Parsing JSON in Objective-C";
+		};
+		81E7EFB620B897D40012174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811EE18F20B34B9F00E6373B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811EE19620B34B9F00E6373B;
+			remoteInfo = "Parsing JSON in Objective-C";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		811EE19720B34B9F00E6373B /* Parsing JSON in Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing JSON in Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811EE19A20B34BA000E6373B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		811EE19B20B34BA000E6373B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		811EE19D20B34BA000E6373B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		811EE19E20B34BA000E6373B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		811EE19D20B34BA000E6373B /* EventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		811EE19E20B34BA000E6373B /* EventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		811EE1A120B34BA000E6373B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		811EE1A320B34BA400E6373B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811EE1A620B34BA400E6373B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811EE1A820B34BA400E6373B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		811EE1A920B34BA400E6373B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		811EE1B020B34BC500E6373B /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		811EE1B220B34CE800E6373B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		811EE1B320B34CE800E6373B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		811EE1B920B34FE700E6373B /* PersonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811EE1BB20B34FE700E6373B /* PersonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		811EE1BD20B34FE700E6373B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8198D2DF20B4993800749A37 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		8198D2E020B4996500749A37 /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		8198D2E220B49AD400749A37 /* Event.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Event.json; sourceTree = "<group>"; };
+		8198D2E820B4A22B00749A37 /* EventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8198D2EA20B4A22B00749A37 /* EventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTests.m; sourceTree = "<group>"; };
+		8198D2EC20B4A22B00749A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8198D2F920B5EFAF00749A37 /* MeetupAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8198D2FB20B5EFAF00749A37 /* MeetupAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupAPITests.m; sourceTree = "<group>"; };
+		8198D2FD20B5EFAF00749A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8198D30320B5EFD800749A37 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		8198D30420B5EFD800749A37 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		81E7EF8B20B708EF0012174E /* MeetupAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupAPI.h; sourceTree = "<group>"; };
+		81E7EF8C20B708F00012174E /* MeetupAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupAPI.m; sourceTree = "<group>"; };
+		81E7EF8E20B70BAE0012174E /* APIKEY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKEY.h; sourceTree = "<group>"; };
+		81E7EF9120B715010012174E /* EventCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		81E7EF9220B715010012174E /* EventCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		81E7EF9520B726910012174E /* ImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		81E7EF9620B726910012174E /* ImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		81E7EF9820B87C300012174E /* EventDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		81E7EF9920B87C300012174E /* EventDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		81E7EF9B20B88C990012174E /* CONSTANTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
+		81E7EF9C20B88F8D0012174E /* FavoriteEventsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteEventsAPI.h; sourceTree = "<group>"; };
+		81E7EF9D20B88F8D0012174E /* FavoriteEventsAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteEventsAPI.m; sourceTree = "<group>"; };
+		81E7EFB120B897D40012174E /* PersistenceDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E7EFB320B897D40012174E /* PersistenceDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceDataTests.m; sourceTree = "<group>"; };
+		81E7EFB520B897D40012174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E7EFBB20B8BFE50012174E /* FavoriteEventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteEventsViewController.h; sourceTree = "<group>"; };
+		81E7EFBC20B8BFE60012174E /* FavoriteEventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteEventsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		811EE19420B34B9F00E6373B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811EE1B620B34FE700E6373B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2E520B4A22B00749A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2F620B5EFAF00749A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E7EFAE20B897D40012174E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				811EE19920B34B9F00E6373B /* Parsing JSON in Objective-C */,
+				811EE1BA20B34FE700E6373B /* PersonTests */,
+				8198D2E920B4A22B00749A37 /* EventTests */,
+				8198D2FA20B5EFAF00749A37 /* MeetupAPITests */,
+				81E7EFB220B897D40012174E /* PersistenceDataTests */,
 				811EE19820B34B9F00E6373B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				811EE19720B34B9F00E6373B /* Parsing JSON in Objective-C.app */,
+				811EE1B920B34FE700E6373B /* PersonTests.xctest */,
+				8198D2E820B4A22B00749A37 /* EventTests.xctest */,
+				8198D2F920B5EFAF00749A37 /* MeetupAPITests.xctest */,
+				81E7EFB120B897D40012174E /* PersistenceDataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,17 +174,107 @@
 		811EE19920B34B9F00E6373B /* Parsing JSON in Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				811EE19A20B34BA000E6373B /* AppDelegate.h */,
-				811EE19B20B34BA000E6373B /* AppDelegate.m */,
-				811EE19D20B34BA000E6373B /* ViewController.h */,
-				811EE19E20B34BA000E6373B /* ViewController.m */,
-				811EE1A020B34BA000E6373B /* Main.storyboard */,
-				811EE1A320B34BA400E6373B /* Assets.xcassets */,
-				811EE1A520B34BA400E6373B /* LaunchScreen.storyboard */,
+				8198D2F420B5EF1000749A37 /* SupportingFiles */,
+				8198D2F220B5EEE900749A37 /* Models */,
+				81E7EF9420B715050012174E /* Views */,
+				8198D2F320B5EEF500749A37 /* ViewControllers */,
 				811EE1A820B34BA400E6373B /* Info.plist */,
 				811EE1A920B34BA400E6373B /* main.m */,
 			);
 			path = "Parsing JSON in Objective-C";
+			sourceTree = "<group>";
+		};
+		811EE1BA20B34FE700E6373B /* PersonTests */ = {
+			isa = PBXGroup;
+			children = (
+				811EE1BB20B34FE700E6373B /* PersonTests.m */,
+				811EE1BD20B34FE700E6373B /* Info.plist */,
+			);
+			path = PersonTests;
+			sourceTree = "<group>";
+		};
+		8198D2E920B4A22B00749A37 /* EventTests */ = {
+			isa = PBXGroup;
+			children = (
+				8198D2EA20B4A22B00749A37 /* EventTests.m */,
+				8198D2EC20B4A22B00749A37 /* Info.plist */,
+			);
+			path = EventTests;
+			sourceTree = "<group>";
+		};
+		8198D2F220B5EEE900749A37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				811EE1B220B34CE800E6373B /* Person.h */,
+				811EE1B320B34CE800E6373B /* Person.m */,
+				8198D2DF20B4993800749A37 /* Event.h */,
+				8198D2E020B4996500749A37 /* Event.m */,
+				8198D30320B5EFD800749A37 /* NetworkHelper.h */,
+				8198D30420B5EFD800749A37 /* NetworkHelper.m */,
+				81E7EF8B20B708EF0012174E /* MeetupAPI.h */,
+				81E7EF8C20B708F00012174E /* MeetupAPI.m */,
+				81E7EF9520B726910012174E /* ImageCache.h */,
+				81E7EF9620B726910012174E /* ImageCache.m */,
+				81E7EF9C20B88F8D0012174E /* FavoriteEventsAPI.h */,
+				81E7EF9D20B88F8D0012174E /* FavoriteEventsAPI.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8198D2F320B5EEF500749A37 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				811EE19D20B34BA000E6373B /* EventsViewController.h */,
+				811EE19E20B34BA000E6373B /* EventsViewController.m */,
+				81E7EF9820B87C300012174E /* EventDetailViewController.h */,
+				81E7EF9920B87C300012174E /* EventDetailViewController.m */,
+				81E7EFBB20B8BFE50012174E /* FavoriteEventsViewController.h */,
+				81E7EFBC20B8BFE60012174E /* FavoriteEventsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8198D2F420B5EF1000749A37 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				811EE19A20B34BA000E6373B /* AppDelegate.h */,
+				811EE19B20B34BA000E6373B /* AppDelegate.m */,
+				81E7EF8E20B70BAE0012174E /* APIKEY.h */,
+				81E7EF9B20B88C990012174E /* CONSTANTS.h */,
+				811EE1B020B34BC500E6373B /* sample.json */,
+				8198D2E220B49AD400749A37 /* Event.json */,
+				811EE1A020B34BA000E6373B /* Main.storyboard */,
+				811EE1A320B34BA400E6373B /* Assets.xcassets */,
+				811EE1A520B34BA400E6373B /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8198D2FA20B5EFAF00749A37 /* MeetupAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				8198D2FB20B5EFAF00749A37 /* MeetupAPITests.m */,
+				8198D2FD20B5EFAF00749A37 /* Info.plist */,
+			);
+			path = MeetupAPITests;
+			sourceTree = "<group>";
+		};
+		81E7EF9420B715050012174E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81E7EF9120B715010012174E /* EventCell.h */,
+				81E7EF9220B715010012174E /* EventCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81E7EFB220B897D40012174E /* PersistenceDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				81E7EFB320B897D40012174E /* PersistenceDataTests.m */,
+				81E7EFB520B897D40012174E /* Info.plist */,
+			);
+			path = PersistenceDataTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +297,78 @@
 			productReference = 811EE19720B34B9F00E6373B /* Parsing JSON in Objective-C.app */;
 			productType = "com.apple.product-type.application";
 		};
+		811EE1B820B34FE700E6373B /* PersonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811EE1C020B34FE700E6373B /* Build configuration list for PBXNativeTarget "PersonTests" */;
+			buildPhases = (
+				811EE1B520B34FE700E6373B /* Sources */,
+				811EE1B620B34FE700E6373B /* Frameworks */,
+				811EE1B720B34FE700E6373B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811EE1BF20B34FE700E6373B /* PBXTargetDependency */,
+			);
+			name = PersonTests;
+			productName = PersonTests;
+			productReference = 811EE1B920B34FE700E6373B /* PersonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8198D2E720B4A22B00749A37 /* EventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8198D2EF20B4A22B00749A37 /* Build configuration list for PBXNativeTarget "EventTests" */;
+			buildPhases = (
+				8198D2E420B4A22B00749A37 /* Sources */,
+				8198D2E520B4A22B00749A37 /* Frameworks */,
+				8198D2E620B4A22B00749A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8198D2EE20B4A22B00749A37 /* PBXTargetDependency */,
+			);
+			name = EventTests;
+			productName = EventTests;
+			productReference = 8198D2E820B4A22B00749A37 /* EventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8198D2F820B5EFAF00749A37 /* MeetupAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8198D30020B5EFAF00749A37 /* Build configuration list for PBXNativeTarget "MeetupAPITests" */;
+			buildPhases = (
+				8198D2F520B5EFAF00749A37 /* Sources */,
+				8198D2F620B5EFAF00749A37 /* Frameworks */,
+				8198D2F720B5EFAF00749A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8198D2FF20B5EFAF00749A37 /* PBXTargetDependency */,
+			);
+			name = MeetupAPITests;
+			productName = MeetupAPITests;
+			productReference = 8198D2F920B5EFAF00749A37 /* MeetupAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81E7EFB020B897D40012174E /* PersistenceDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E7EFB820B897D40012174E /* Build configuration list for PBXNativeTarget "PersistenceDataTests" */;
+			buildPhases = (
+				81E7EFAD20B897D40012174E /* Sources */,
+				81E7EFAE20B897D40012174E /* Frameworks */,
+				81E7EFAF20B897D40012174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E7EFB720B897D40012174E /* PBXTargetDependency */,
+			);
+			name = PersistenceDataTests;
+			productName = PersistenceDataTests;
+			productReference = 81E7EFB120B897D40012174E /* PersistenceDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +380,23 @@
 				TargetAttributes = {
 					811EE19620B34B9F00E6373B = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					811EE1B820B34FE700E6373B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 811EE19620B34B9F00E6373B;
+					};
+					8198D2E720B4A22B00749A37 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 811EE19620B34B9F00E6373B;
+					};
+					8198D2F820B5EFAF00749A37 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 811EE19620B34B9F00E6373B;
+					};
+					81E7EFB020B897D40012174E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 811EE19620B34B9F00E6373B;
 					};
 				};
 			};
@@ -119,6 +414,10 @@
 			projectRoot = "";
 			targets = (
 				811EE19620B34B9F00E6373B /* Parsing JSON in Objective-C */,
+				811EE1B820B34FE700E6373B /* PersonTests */,
+				8198D2E720B4A22B00749A37 /* EventTests */,
+				8198D2F820B5EFAF00749A37 /* MeetupAPITests */,
+				81E7EFB020B897D40012174E /* PersistenceDataTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,8 +428,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				811EE1A720B34BA400E6373B /* LaunchScreen.storyboard in Resources */,
+				811EE1B120B34BC500E6373B /* sample.json in Resources */,
 				811EE1A420B34BA400E6373B /* Assets.xcassets in Resources */,
+				8198D2E320B49AD400749A37 /* Event.json in Resources */,
 				811EE1A220B34BA000E6373B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811EE1B720B34FE700E6373B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2E620B4A22B00749A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2F720B5EFAF00749A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E7EFAF20B897D40012174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,13 +470,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811EE19F20B34BA000E6373B /* ViewController.m in Sources */,
+				81E7EF9320B715010012174E /* EventCell.m in Sources */,
+				81E7EFBD20B8BFE60012174E /* FavoriteEventsViewController.m in Sources */,
+				811EE19F20B34BA000E6373B /* EventsViewController.m in Sources */,
 				811EE1AA20B34BA400E6373B /* main.m in Sources */,
+				8198D30520B5EFD800749A37 /* NetworkHelper.m in Sources */,
+				8198D2E120B4996500749A37 /* Event.m in Sources */,
+				811EE1B420B34CE800E6373B /* Person.m in Sources */,
+				81E7EF9A20B87C300012174E /* EventDetailViewController.m in Sources */,
+				81E7EF9E20B88F8D0012174E /* FavoriteEventsAPI.m in Sources */,
 				811EE19C20B34BA000E6373B /* AppDelegate.m in Sources */,
+				81E7EF9720B726910012174E /* ImageCache.m in Sources */,
+				81E7EF8D20B708F00012174E /* MeetupAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811EE1B520B34FE700E6373B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811EE1BC20B34FE700E6373B /* PersonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2E420B4A22B00749A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198D2EB20B4A22B00749A37 /* EventTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D2F520B5EFAF00749A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8198D2FC20B5EFAF00749A37 /* MeetupAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E7EFAD20B897D40012174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E7EFB420B897D40012174E /* PersistenceDataTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811EE1BF20B34FE700E6373B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811EE19620B34B9F00E6373B /* Parsing JSON in Objective-C */;
+			targetProxy = 811EE1BE20B34FE700E6373B /* PBXContainerItemProxy */;
+		};
+		8198D2EE20B4A22B00749A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811EE19620B34B9F00E6373B /* Parsing JSON in Objective-C */;
+			targetProxy = 8198D2ED20B4A22B00749A37 /* PBXContainerItemProxy */;
+		};
+		8198D2FF20B5EFAF00749A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811EE19620B34B9F00E6373B /* Parsing JSON in Objective-C */;
+			targetProxy = 8198D2FE20B5EFAF00749A37 /* PBXContainerItemProxy */;
+		};
+		81E7EFB720B897D40012174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811EE19620B34B9F00E6373B /* Parsing JSON in Objective-C */;
+			targetProxy = 81E7EFB620B897D40012174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		811EE1A020B34BA000E6373B /* Main.storyboard */ = {
@@ -283,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6644XK36Y;
 				INFOPLIST_FILE = "Parsing JSON in Objective-C/Info.plist";
@@ -292,6 +686,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.Parsing-JSON-in-Objective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6644XK36Y;
 				INFOPLIST_FILE = "Parsing JSON in Objective-C/Info.plist";
@@ -309,7 +706,160 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.Parsing-JSON-in-Objective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		811EE1C120B34FE700E6373B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = PersonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.PersonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Debug;
+		};
+		811EE1C220B34FE700E6373B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = PersonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.PersonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Release;
+		};
+		8198D2F020B4A22B00749A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = EventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.EventTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Debug;
+		};
+		8198D2F120B4A22B00749A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = EventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.EventTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Release;
+		};
+		8198D30120B5EFAF00749A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = MeetupAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.MeetupAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Debug;
+		};
+		8198D30220B5EFAF00749A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = MeetupAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.MeetupAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Release;
+		};
+		81E7EFB920B897D40012174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = PersistenceDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.PersistenceDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
+			};
+			name = Debug;
+		};
+		81E7EFBA20B897D40012174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6644XK36Y;
+				INFOPLIST_FILE = PersistenceDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Melissa-He.PersistenceDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON in Objective-C.app/Parsing JSON in Objective-C";
 			};
 			name = Release;
 		};
@@ -330,6 +880,42 @@
 			buildConfigurations = (
 				811EE1AE20B34BA400E6373B /* Debug */,
 				811EE1AF20B34BA400E6373B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811EE1C020B34FE700E6373B /* Build configuration list for PBXNativeTarget "PersonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811EE1C120B34FE700E6373B /* Debug */,
+				811EE1C220B34FE700E6373B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8198D2EF20B4A22B00749A37 /* Build configuration list for PBXNativeTarget "EventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198D2F020B4A22B00749A37 /* Debug */,
+				8198D2F120B4A22B00749A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8198D30020B5EFAF00749A37 /* Build configuration list for PBXNativeTarget "MeetupAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198D30120B5EFAF00749A37 /* Debug */,
+				8198D30220B5EFAF00749A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E7EFB820B897D40012174E /* Build configuration list for PBXNativeTarget "PersistenceDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E7EFB920B897D40012174E /* Debug */,
+				81E7EFBA20B897D40012174E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

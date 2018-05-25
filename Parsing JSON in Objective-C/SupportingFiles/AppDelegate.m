@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FavoriteEventsAPI.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    BOOL favoriteEventsLoaded = [[FavoriteEventsAPI sharedManager] loadEvents];
+    if (favoriteEventsLoaded) {
+        NSLog(@"favorite events loaded");
+    } else {
+        NSLog(@"favorite events unable to load");
+    }
     return YES;
 }
 
